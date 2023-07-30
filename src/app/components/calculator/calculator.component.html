@@ -1,0 +1,14 @@
+<div id="box">
+  <div id="boxtitle">Calculator 1.1</div>
+
+  <app-calculator-screen
+    [screenText]="result.screen"
+    [memoryText]="result.memory"
+  ></app-calculator-screen>
+
+  <app-calculator-button-panel
+    (buttonClicked)="handleButtonClicked($event)"
+  ></app-calculator-button-panel>
+
+  <div id="footer"></div>
+</div>

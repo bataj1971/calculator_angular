@@ -1,0 +1,4 @@
+
+  <div *ngFor="let button of buttons" [ngClass]="button.classes" (click)="this.handleButtonClick(button.cmd)">
+    {{ button.label }}
+  </div>

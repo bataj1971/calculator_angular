@@ -1,0 +1,26 @@
+[
+  ["clear", "C", "sign red",  ["KeyC"]],
+  ["memory-in", "M+", "sign blue",  ["KeyM"]],
+  ["memory-clear", "MC", "sign blue", ""],
+  ["memory-out", "MR", "sign blue", ["KeyR"]],
+
+  ["1", "1", "number", ["Digit1", "Numpad1"]],
+  ["2", "2", "number", ["Digit2", "Numpad2"]],
+  ["3", "3", "number", ["Digit3", "Numpad3"]],
+  ["multiply", "×", "sign", ["NumpadMultiply"]],
+
+  ["4", "4", "number", ["Digit4", "Numpad4"]],
+  ["5", "5", "number", ["Digit5", "Numpad5"]],
+  ["6", "6", "number", ["Digit6", "Numpad6"]],
+  ["divide", "÷", "sign", ["NumpadDivide"]],
+
+  ["7", "7", "number", ["Digit7", "Numpad7"]],
+  ["8", "8", "number", ["Digit8", "Numpad8"]],
+  ["9", "9", "number", ["Digit9", "Numpad9"]],
+  ["minus", "-", "sign", ["NumpadSubtract"]],
+
+  ["point", ".", "sign", ["NumpadDecimal"]],
+  ["0", "0", "number", ["0"]],
+  ["equal", "=", "sign", ["NumpadEnter","Enter"]],
+  ["plus", "+", "sign", ["NumpadAdd",""]]
+]
