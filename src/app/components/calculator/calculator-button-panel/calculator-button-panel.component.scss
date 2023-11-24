@@ -39,6 +39,9 @@
     }
 
     /* pushed button mod: */
+    &:not(:active) {
+      transition: box-shadow 200ms;
+    }
     &:active {
       box-shadow: none;
       border-color: #ddd;

@@ -88,17 +88,23 @@ export class CalculatorService {
       this.error = 'e:overflow';
     }
 
-    console.log("service:",this.screenvalue,this.status,this.memory,this.error);
+    console.log(
+      'service:',
+      this.screenvalue,
+      this.status,
+      this.memory,
+      this.error
+    );
 
     return {
-      screen: (this.error ? this.error : this.screenvalue.toString() ),
+      screen: this.error ? this.error : this.screenvalue.toString(),
       status: this.status,
-      memory: (this.memory ? 'M':' '),
+      memory: this.memory ? 'M' : ' ',
     };
   }
 
   /**
-   * processing values depending on statatus
+   * processing values depending on status
    */
   private process() {
     switch (this.status) {

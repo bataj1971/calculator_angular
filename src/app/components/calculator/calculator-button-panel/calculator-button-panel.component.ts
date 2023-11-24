@@ -29,8 +29,9 @@ export class CalculatorButtonPanelComponent {
 
   @HostListener('document:keydown', ['$event'])
   onKeyPressed($event: KeyboardEvent) {
-    console.log('$event', $event);
+
     const keyCode = $event.code;
+
     this.buttons.map(button => {
       if (button.keyCodes.includes(keyCode)) {
         this.handleButtonClick(button.cmd);
